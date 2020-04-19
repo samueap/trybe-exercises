@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form exercises 6_1</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <p>Exercício Formulário do bloco 6.1</p>
+  <form>
+    <div>
+      <fieldset class="form-row">
+        <legend>Adicione os dados</legend>
+        <label for="name-text">Digite nome</label>
+        <input id="name-text"
+        required="required" 
+        name="name-text" 
+        type="text" 
+        maxlength="40"/>
+
+        <label for="email-text">Digite E-mail</label>
+        <input id="email-text"
+        required="required" 
+        name="email-text" 
+        type="email" 
+        maxlength="50"/>
+
+        <label for="cpf-text">Digite CPF</label>
+        <input id="cpf-text"
+        required="required" 
+        name="cpf-text" 
+        type="text" 
+        maxlength="11"/>
+
+        <label for="adress-text">Digite Endereço</label>
+        <input id="adress-text"
+        required="required" 
+        name="adress-text" 
+        type="text" 
+        maxlength="200"/>
+
+        <label for="city-text">Digite Cidade</label>
+        <input id="city-text"
+        required="required" 
+        name="city-text" 
+        type="text" 
+        maxlength="28"/>
+        
+        <div><label for="estado-comboBox">Selecione Estado</label><br>
+          <select required="required" id="estado-comboBox" name="Estado">
+            <option selected="selected" value="">Selecione a cidade</option>
+            <option value="1">Minas Gerais</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Rio de Janeiro</option> 
+          </select>
+        </div>
+      </div>
+
+      </fieldset>
+    </div>
+  </form>
+
+  
+</body>
+</html>
