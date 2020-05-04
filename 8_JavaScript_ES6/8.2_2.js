@@ -59,6 +59,16 @@ listLesson(lesson3);
 *3. Crie uma função para mostrar o tamanho de um objeto. 
  */
 
+const tamanhoLesson = (lesson) => Object.value(lesson);
+
+console.log('lesson1');
+tamanhoLesson(lesson1);
+
+console.log('lesson2');
+tamanhoLesson(lesson2);
+
+console.log('lesson3');
+tamanhoLesson(lesson3);
 
 /**
  * 4. Crie uma função para listar os valores de um objeto.
