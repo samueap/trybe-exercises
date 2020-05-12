@@ -1,7 +1,3 @@
-// Encontre o nome da pessoa autora do livro nascida no ano de 1947.
-
-// Dica: use a função find.
-
 const assert = require('assert');
 
 const books = [
