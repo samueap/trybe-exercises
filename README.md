@@ -15,5 +15,4 @@ Module:
     * Higher Order Functions (HOF) - forEach, find, filter, some, every, sort
     * Higher Order Functions (HOF) - map e reduce
     * spread operator; parâmetro rest; object destructuring; array destructuring; default destructuring;abbreviation object literal; default params.
-10 - Jest/ CallBacks/ Promisse   
-
+10 - Jest/ CallBacks/ Promisse
