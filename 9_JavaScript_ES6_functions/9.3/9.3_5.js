@@ -9,7 +9,7 @@ const myList = [1, 2, 3]
 // escreva swap abaixo
 const swapped = ([a, b, c]) => [c, b, a]
 
-const swappedList = swap(myList)
+const swappedList = swapped(myList)
 
 assert.equal(swappedList[0], 3)
 assert.equal(swappedList[1], 2)
