@@ -2,7 +2,7 @@
 
 const thereIs = require('./thereIs');
 
-describe('sum', () => {
+describe('thereIs', () => {
   test('type of a defined variable is not `undefined`', () => {
     expect(typeof (thereIs)).not.toBe('undefined');
   });
